@@ -9,7 +9,7 @@ class Store(Resource):
         if store:
             return store.json(), 200
         else:
-            return {'Message': 'Item not found'}, 404
+            return {'Message': 'Store not found'}, 404
 
     def post(self, name):
         if StoreModel.find_by_name(name):
