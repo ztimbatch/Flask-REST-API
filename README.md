@@ -10,3 +10,4 @@ pip install Flask-SQLAlchemy
 
 ## Description
 This project is built with Flask, Flask-RESTful, Flask-JWT, and Flask-SQLAlchemy
+Deployed with Heroku
